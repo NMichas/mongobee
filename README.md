@@ -1,3 +1,13 @@
+This fork was mainly created to deploy Mongobee on OSGi (tested it with Karaf 3.0.2). It also reduces complexity by removing Spring-related (and a few others...) stuff.
+### What's in this fork:
+* OSGi ready bundle.
+* Spring-free, no refs or deps to anything Spring-related.
+* Switch to JUL.
+
+
+=======
+
+
 ![mongobee](https://raw.githubusercontent.com/mongobee/mongobee/master/misc/mongobee_min.png)
 =======
 
